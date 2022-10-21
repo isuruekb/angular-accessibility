@@ -1,0 +1,29 @@
+.box{
+    width: 100%;
+    height: 50%;
+    background: blue;
+}
+.changeTo20{
+    filter: contrast(20%)
+}
+
+.changeTo40{
+    filter: contrast(40%)
+}
+
+.changeTo60{
+    filter: contrast(60%)
+}
+
+.changeTo80{
+    filter: contrast(100%)
+}
+
+.changeTo100{
+    filter: contrast(200%)
+}
+
+.heding{
+    height: 50;
+    padding-top: 20px;
+}

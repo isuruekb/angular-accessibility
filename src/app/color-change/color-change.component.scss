@@ -1,0 +1,42 @@
+.box{
+    margin: auto;
+    width: 75%;
+    // height: 500px;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.changeToBlue{
+    background: blue;
+    color: white;
+}
+
+.changeToGreen{
+    background: green;
+    color: yellow;
+}
+
+.changeToYellow{
+    background: yellow;
+}
+
+.purchase-button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    // background-color: mat.get-color-from-palette(mat.$pink-palette, A100);
+
+    // TODO: #12. Enable HighContrast mode
+    // @include cdk.high-contrast() {
+    //   outline: solid 1px;
+    //   background-color: mat.get-color-from-palette(mat.$pink-palette, 50);
+    // }
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+
+    h3 {
+      margin: 16px 0 16px;
+    }
+  }

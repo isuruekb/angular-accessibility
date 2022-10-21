@@ -1,0 +1,11 @@
+<mat-card class="color selection-card">
+    <mat-card-title>Filterd Colors</mat-card-title>
+    <mat-card-content>
+      <app-color-picker [color]="color" (recolor)="changeColor($event)"></app-color-picker>
+    </mat-card-content>
+    
+  </mat-card>
+
+  <div class="box" [style.background]="color">
+
+  </div>

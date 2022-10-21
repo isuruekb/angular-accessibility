@@ -1,0 +1,27 @@
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="title-header">
+    
+    <h1 class="display-1" [attr.aria-label]="navbarHeading" routerLink="">Angular Assessbility</h1>
+    <button mat-icon-button 
+      (click)="toggleTheme()" 
+      matTooltip="Toggle theme"
+      attr.aria-label="Switch to {{ isDark ? 'light' : 'dark' }} theme"
+      color="primary">
+      <mat-icon>brightness_medium</mat-icon>
+  </button>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="navigation-links">
+    <nav>
+      <a mat-button [attr.aria-label]="tab1" routerLink="">First Page</a>
+      <a mat-button [attr.aria-label]="tab1" routerLink="color-change">Theme Change</a>
+      <a mat-button [attr.aria-label]="tab2" routerLink="zoom">Zoom In Out</a>
+      <a mat-button [attr.aria-label]="tab2" routerLink="color-filter">Color Filter</a>
+      <a mat-button [attr.aria-label]="tab2" routerLink="color-contrast">Color Contrast</a>
+      <a mat-button [attr.aria-label]="tab3" >Tab 3</a>
+    </nav>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+

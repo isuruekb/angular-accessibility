@@ -1,0 +1,30 @@
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); 
+  }
+
+  .zoomOut {
+    padding: 50px;
+    background-color: blue;
+    transition: transform .2s;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+  }
+  
+  .zoomOut:hover {
+    // transform: scale(-0.5); 
+    zoom: 55%;
+  }

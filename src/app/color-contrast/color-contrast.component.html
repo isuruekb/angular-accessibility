@@ -1,0 +1,27 @@
+<mat-card class="color selection-card">
+    <mat-card-title>Filterd Colors</mat-card-title>
+    <mat-card-content>
+      <app-color-picker [color]="color" (recolor)="changeColor($event)"></app-color-picker>
+    </mat-card-content>
+    
+  </mat-card>
+  
+  <div>
+    <h2 class="heding">Change Color Contrast</h2>
+  </div>
+
+<nav class="navbar">
+    <button class="btn btn-primary" type="button" (click)="changeTo20()">20%</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo40()">40%</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo60()">60%</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo80()">100%</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo100()">200%</button>
+</nav>
+
+<div class="box" [style.background]="color" 
+    [class.changeTo20]="Check20"
+    [class.changeTo40]="Check40"
+    [class.changeTo60]="Check60"
+    [class.changeTo80]="Check80"
+    [class.changeTo100]="Check100" >
+</div>
