@@ -1,4 +1,4 @@
-# Build more accessible Angular apps : Dumpling Shop demo
+#Accessible Angular app
 
 Demo for the [Build more accessible Angular apps](https://codelabs.developers.google.com/angular-a11y) codelab.
 
