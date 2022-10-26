@@ -1,0 +1,28 @@
+<mat-card class="color selection-card">
+    <mat-card-title>Filterd Colors</mat-card-title>
+    <mat-card-content>
+      <app-color-picker [color]="color" (recolor)="changeColor($event)"></app-color-picker>
+    </mat-card-content>
+    
+  </mat-card>
+  
+  <div>
+    <h2 class="heding">Reduce Transparencyt</h2>
+  </div>
+
+<nav class="navbar">
+    <button class="btn btn-primary" type="button" (click)="changeTo01()">Opacity: 0.1</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo03()">Opacity: 0.3</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo05()">Opacity: 0.5</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo07()">Opacity: 0.7</button>
+    <button class="btn btn-primary" type="button" (click)="changeTo1()">Opacity: 1</button>
+</nav>
+<div class="divBackground">
+  <div class="box container" [style.background]="color" 
+      [class.changeTo01]="Check01"
+      [class.changeTo03]="Check03"
+      [class.changeTo05]="Check05"
+      [class.changeTo07]="Check07"
+      [class.changeTo1]="Check1" >
+  </div>
+</div>
