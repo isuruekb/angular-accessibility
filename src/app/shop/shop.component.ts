@@ -11,7 +11,7 @@ export class ShopComponent implements OnInit {
   quantity = 11;
 
   // TODO: #7. Create selectable controls with Angular Material
-  fillings: string[] = ['Invert Colours', 'Colour Filter', 'Increase Contrast', 'Reduce Trancparency', 'Zoom in Zoom Out', 'Text to voice (Using Extention)'];
+  fillings: string[] = ['Invert Colours', 'Colour Filter', 'Increase Contrast', 'Reduce Transparency', 'Zoom in Zoom Out', 'Text to voice'];
   selectedFillings: string[] = [];
 
   // TODO: #11. Announce changes with LiveAnnouncer

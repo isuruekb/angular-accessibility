@@ -30,6 +30,8 @@ import { ColorChangeComponent } from './color-change/color-change.component';
 import { ColorContrastComponent } from './color-contrast/color-contrast.component';
 import { ZoomInOutComponent } from './zoom-in-out/zoom-in-out.component';
 import { ColorFilterComponent } from './color-filter/color-filter.component';
+import { TextToSpeechComponent } from './text-to-speech/text-to-speech.component';
+import { ReduceTransparencyComponent } from './reduce-transparency/reduce-transparency.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { ColorFilterComponent } from './color-filter/color-filter.component';
     ColorContrastComponent,
     ZoomInOutComponent,
     ColorFilterComponent,
+    TextToSpeechComponent,
+    ReduceTransparencyComponent,
   ],
   imports: [
     BrowserModule,
