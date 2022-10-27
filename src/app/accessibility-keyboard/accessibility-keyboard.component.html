@@ -1,0 +1,28 @@
+<div class="container">
+    <div >
+        <input class="inputFeild" autofocus 
+        (keyup.Space)= "changeTospaceKey()"
+        (keyup.Enter)= "changeToenterKey()"
+        (keyup.1)= "changeToNumpad1()"
+        (keyup.2)= "changeToNumpad2()"
+        (keyup.3)= "changeToNumpad3()" 
+        >
+    </div>
+    
+    <div class="squre" 
+        [class.spaceKey]="spaceKey"
+        [class.enterKey]="enterKey"
+        [class.oneKey]="oneKey"
+        [class.twoKey]="twoKey"
+        [class.threeKey]="threeKey"
+    >
+        <h1 [class.spaceKey]="text1">
+            Press Enter to Indigo <br>
+            Press Space to Yellow <br>
+            Press 1 to Brown <br>
+            Press 2 to Orange <br>
+            Press 3 to Green <br>
+        </h1>
+    </div>
+</div>
+

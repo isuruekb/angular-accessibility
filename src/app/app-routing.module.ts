@@ -22,7 +22,7 @@ import { ZoomInOutComponent } from './zoom-in-out/zoom-in-out.component';
 import { ColorFilterComponent } from './color-filter/color-filter.component';
 import { TextToSpeechComponent } from './text-to-speech/text-to-speech.component';
 import { ReduceTransparencyComponent } from './reduce-transparency/reduce-transparency.component';
-
+import { AccessibilityKeyboardComponent } from './accessibility-keyboard/accessibility-keyboard.component';
 
 // TODO: #4. Define unique page titles
 const routes: Routes = [
@@ -33,6 +33,7 @@ const routes: Routes = [
   { path: 'color-filter', component: ColorFilterComponent },
   { path: 'text-to-speech', component: TextToSpeechComponent },
   { path: 'reduce-transparency', component: ReduceTransparencyComponent },
+  { path: 'accessibility-keyboard', component: AccessibilityKeyboardComponent },
   { path: '**', component: ShopComponent }
 ];
 
